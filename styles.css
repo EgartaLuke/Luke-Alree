@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: black;
   animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -19,8 +19,8 @@ body {
 
 header {
   text-align: center;
-  background: #007BFF;
-  color: white;
+  background: black;
+  color: whitesmoke;
   padding: 1.5rem 0;
   animation: slideDown 1s ease-in-out;
 }
@@ -55,7 +55,7 @@ nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  background: #333;
+  background: black;
   padding: 0.5rem;
 }
 
@@ -119,8 +119,8 @@ section {
 }
 
 h2 {
-  color: #007BFF;
-  border-bottom: 2px solid #007BFF;
+  color: black;
+  border-bottom: 2px solid black;
   padding-bottom: 0.5rem;
 }
 
@@ -136,7 +136,7 @@ ul {
 
 footer {
   text-align: center;
-  background: #333;
+  background: black;
   color: white;
   padding: 1rem 0;
   animation: slideUp 1s ease-in-out;
@@ -149,10 +149,10 @@ footer {
   to {
     transform: translateY(0);
   }
-/* About Section */
-#about h3 {
+
+ {
   margin-top: 1rem;
-  color: #0056b3;
+  color: darkorchid;
 }
 
 #about ul {
