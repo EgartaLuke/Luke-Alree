@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+  text-align: center;
+  background: #007BFF;
+  color: white;
+  padding: 1.5rem 0;
+  animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  animation: zoomIn 1.5s ease-in-out;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #333;
+  padding: 0.5rem;
+}
+
+nav ul li {
+  margin: 0 1rem;
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+nav ul li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+nav ul li:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+nav ul li:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+nav ul li:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  color: #007BFF;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.portfolio-item {
+  margin-bottom: 1.5rem;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+/* About Section */
+#about h3 {
+  margin-top: 1rem;
+  color: #0056b3;
+}
+
+#about ul {
+  list-style: square;
+  padding-left: 1.5rem;
+}
+
+#about p {
+  margin-bottom: 1rem;
+  animation: fadeInUp 1s ease-in-out;
+}
+
